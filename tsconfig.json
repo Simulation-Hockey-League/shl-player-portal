@@ -1,4 +1,12 @@
 {
+  "baseUrl": ".",
+  "paths": {
+    "@components/*": ["components/*"],
+    "@utils/*": ["utils/*"],
+    "@pages/*": ["pages/*"],
+    "@public/*": ["public/*"],
+    "@hooks/*": ["hooks/*"],
+  },
   "compilerOptions": {
     "target": "es5",
     "lib": [
